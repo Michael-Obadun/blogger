@@ -34,6 +34,48 @@ body{
 
 
 
+.detailcontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.detailimage{
+    margin-left: 3%;
+    background-color: rgb(100, 130, 171);
+    height: 75vh;
+    width: 50%; 
+}
+.imgdetails{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(127, 161, 195);
+    height: 67vh;
+    width: 40%;
+    margin-right: 3%;
+}
+.authorContent{
+    background-color: rgb(210, 203, 69);
+    height: 40%;
+    width: 90%;
+}
+.commentImagge{
+    background-color: rgb(72, 129, 49);
+    height: 40%;
+    width: 90%;
+    margin: auto;
+}
+.allcomments{
+    background-color: rgb(210, 203, 69);
+    width: 90%;
+}
+.UserComments{
+    justify-content: center;
+    text-align: center;
+}
+hr{
+    color: rgb(100, 130, 171);
+}
 
 
 
@@ -54,6 +96,156 @@ body{
 
 
 
+
+.red-o {
+    color: rgb(100, 130, 171);
+}
+
+.thin {
+    font-weight: 300;
+}
+
+.light-bg {
+    background: rgb(226, 218, 214);
+}
+
+.dark-bg {
+    background: rgb(226, 218, 214);
+}
+
+.main-bg {
+    background-color: #F9FAFC;
+}
+
+.card {
+    border: none;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-flash {
+    position: absolute;
+    bottom: 5%;
+    min-width: 30%;
+    left: -2px;
+    background-color:  rgb(226, 218, 214);
+}
+
+.scale {
+    width: 100%;
+    height: auto;
+}
+
+.author {
+    color: rgb(100, 130, 171);
+    margin: 4px;
+    text-transform: uppercase;
+}
+
+.masthead {
+    margin-top: 10px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    height: 33vh;
+    width: 100%;
+}
+
+.masthead-text {
+    background-color: #445261;
+    color: white;
+    position: relative;
+}
+
+.masthead-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.masthead-image:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 90%;
+    height: 100%;
+    width: 150%;
+    background: #445261;
+    -webkit-transform: skew(15deg);
+    -moz-transform: skew(15deg);
+    transform: skew(15deg);
+    z-index: 100;
+}
+
+.post-link {
+    text-decoration: none;
+    color: rgb(127, 161, 195);
+}
+
+.post-link:hover,
+.page-link {
+    color: rgb(127, 161, 195);
+}
+
+.post-title {
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.post-subtitle {
+    margin-left: 5%;
+    color: rgb(127, 161, 195);
+}
+
+.btn-signup,
+.btn-edit {
+    background-color:  rgb(226, 218, 214);
+    color: #fff;
+}
+
+.btn-signup:hover,
+.btn-signup:active {
+    background-color: #fff;
+    color:  rgb(226, 218, 214);
+}
+
+.link {
+    color:  rgb(226, 218, 214);
+    text-decoration: none;
+}
+
+.link:hover,
+.link:active {
+    color: #445261;
+    text-decoration: underline;
+}
+
+.btn-like {
+    color: rgb(127, 161, 195);
+    border: none;
+
+}
+
+.btn-delete {
+    color: #fff;
+    background: #E84610;
+}
+
+.btn-like:hover,
+.btn-like:active {
+    color: rgb(127, 161, 195);
+    background: transparent;
+    border: none;
+}
+
+.faded {
+    color: rgb(172, 175, 175);
+}
+
+.approval {
+    color: rgb(222, 146, 168);
+}
 
 
 
