@@ -98,7 +98,7 @@ hr{
 
 
 .red-o {
-    color: #E84610;
+    color: rgb(100, 130, 171);
 }
 
 .thin {
@@ -130,7 +130,7 @@ hr{
     bottom: 5%;
     min-width: 30%;
     left: -2px;
-    background-color: #188181;
+    background-color:  rgb(226, 218, 214);
 }
 
 .scale {
@@ -139,7 +139,7 @@ hr{
 }
 
 .author {
-    color: white;
+    color: rgb(100, 130, 171);
     margin: 4px;
     text-transform: uppercase;
 }
@@ -180,7 +180,7 @@ hr{
 
 .post-link {
     text-decoration: none;
-    color: #445261;
+    color: rgb(127, 161, 195);
 }
 
 .post-link:hover,
@@ -195,23 +195,23 @@ hr{
 
 .post-subtitle {
     margin-left: 5%;
-    color: lightgray;
+    color: rgb(127, 161, 195);
 }
 
 .btn-signup,
 .btn-edit {
-    background-color: #188181;
+    background-color:  rgb(226, 218, 214);
     color: #fff;
 }
 
 .btn-signup:hover,
 .btn-signup:active {
     background-color: #fff;
-    color: #23BBBB;
+    color:  rgb(226, 218, 214);
 }
 
 .link {
-    color: #23BBBB;
+    color:  rgb(226, 218, 214);
     text-decoration: none;
 }
 
