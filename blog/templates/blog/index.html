@@ -1,6 +1,44 @@
 {% extends "base.html" %}
+{% load static %}
 
-{% block content %}
+
+
+
+{% block head %}
+ <!-- heading image -->
+ <div class="introImage">
+    <img src="{% static 'images/default.jpg' %}" class="d-block w-100" alt="...">
+  </div>
+  <!-- heading image -->
+  <div class="introParagraph">
+    <h6>
+      Tired of constantly having to erase data from your Oculus Quest
+      Headset to gree up storage space for your VR games or images. Or just
+      looking for one ideal place to save all your VR images. Then VR images
+      is the website for you.
+    </h6>
+  </div>
+  <!-- heading image -->
+  <div class="ctaBtn">
+    <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#registerModal">
+      Register
+    </button>
+    <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#signInModal">
+      Sign In
+    </button>
+  </div>
+  <hr>
+  <hr>
+  {% endblock %}
+
+
+
+
+  {% block content %}
+  <!-- oust title -->
+  <h2 class="userPost">USER POST</h2>
+
+
 
 <!-- index.html content starts here -->
 <div class="container-fluid">
